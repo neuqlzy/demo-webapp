@@ -23,5 +23,5 @@
     </bean>
 
     <!--扫描所有handler(控制器)-->
-    <context:component-scan base-package="com.adtec.lizy.demo.handler"/>
+    <context:component-scan base-package="com.adtec.lizy.demo"/>
 </beans>
