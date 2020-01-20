@@ -1,0 +1,18 @@
+POST http://localhost:8080/demo_webapp/helloXml
+Content-Type: application/xml
+
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+  <message>hahaha</message>
+</xml>
+
+###
+
+POST http://localhost:8080/demo_webapp/helloJson
+Content-Type: application/json
+
+{
+  "message":"hehehe"
+}
+
+###
