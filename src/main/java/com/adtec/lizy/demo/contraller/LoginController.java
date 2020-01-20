@@ -11,7 +11,7 @@ public class LoginController {
 
     @RequestMapping("/login")
     public String login() {
-        log.info("LoginController.login(), ==> login.jsp 登录");
+        log.info("LoginController.login(), ==> login.jsp ??");
         return "login";
     }
 }
