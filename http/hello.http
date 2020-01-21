@@ -1,4 +1,4 @@
-POST http://localhost:8080/demo_webapp/helloXml
+POST http://localhost:8080/demo_webapp/servlet/xml/helloXml
 Content-Type: application/xml;charset=UTF-8
 
 <?xml version="1.0" encoding="UTF-8" ?>
@@ -8,7 +8,7 @@ Content-Type: application/xml;charset=UTF-8
 
 ###
 
-POST http://localhost:8080/demo_webapp/helloJson
+POST http://localhost:8080/demo_webapp/servlet/json/helloJson
 Content-Type: application/json;charset=UTF-8
 
 {
