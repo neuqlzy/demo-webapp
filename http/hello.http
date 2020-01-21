@@ -1,4 +1,4 @@
-POST http://localhost:8080/demo_webapp/servlet/xml/helloXml
+POST http://localhost:8080/demo_webapp/xml/helloXml
 Content-Type: application/xml;charset=UTF-8
 
 <?xml version="1.0" encoding="UTF-8" ?>
@@ -8,11 +8,38 @@ Content-Type: application/xml;charset=UTF-8
 
 ###
 
-POST http://localhost:8080/demo_webapp/servlet/json/helloJson
+POST http://localhost:8080/demo_webapp/json/helloJson
 Content-Type: application/json;charset=UTF-8
 
 {
   "message":"hehehe"
 }
+
+###
+
+POST http://localhost:8080/demo_webapp/json/hello
+Content-Type: application/json;charset=UTF-8
+
+{
+  "seqNo": "202001211122001001",
+  "brchNo": "2200",
+  "body":{
+    "message": "heiheihei"
+  }
+}
+
+###
+
+POST http://localhost:8080/demo_webapp/xml/hello
+Content-Type: application/xml;charset=UTF-8
+
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+    <seqNo>202001211122001002</seqNo>
+    <brchNo>2200</brchNo>
+    <body>
+        <message>henghengheng</message>
+    </body>
+</xml>
 
 ###
